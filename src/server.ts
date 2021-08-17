@@ -25,7 +25,7 @@ server.use(mainRoutes)
 
 // Page 404
 server.use((req, res) => {
-  res.send('Page not found.')
+  res.render('pages/404')
 })
 
 // Listen Port
